@@ -22,7 +22,7 @@ table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
   border-style: outset;
-  width: 100%;
+  width: 50%;
   padding: 5px;
 }
 caption {
