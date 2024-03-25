@@ -1,4 +1,6 @@
-html {}
+html {
+    background-color: red;
+}
 body {
     background-image:url("soviet_union.jpg")
     color:yellow;
