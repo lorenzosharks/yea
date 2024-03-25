@@ -36,3 +36,7 @@ caption {
 hr {
   color:yellow
 }
+ul, li {
+  text-align: center;
+  color: yellow
+}
