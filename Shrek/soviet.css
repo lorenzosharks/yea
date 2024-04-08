@@ -27,20 +27,3 @@ caption {
   font-weight: bold;
   font-size: 18.72px;
 }
-#centeredButton {
-  background-color: #ff0000; /* Green */
-  border: none;
-  color: yellow;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-#centeredButton:hover {
-  background-color: #640000;
-}
