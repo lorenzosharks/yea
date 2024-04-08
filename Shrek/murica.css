@@ -1,8 +1,8 @@
 html, body {
-    background-color: red;
+    background-color: blue;
 }
 h1, h2, h3, h4, h5, h6, p, ul, li{
-    color: yellow;
+    color: white;
     text-align: center;
   }
 img {
@@ -14,10 +14,10 @@ img {
     width: 50%;
 }
 a, hr {
-    color: yellow;
+    color: white;
 }
 table, th, td {
-  border: 1px solid yellow;
+  border: 1px solid white;
   border-collapse: collapse;
   border-style: outset;
   width: auto;
