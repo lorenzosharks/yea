@@ -1,10 +1,7 @@
-html {
+html, body {
     background-color: red;
 }
-body {
-    background-color: red;
-  }
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, ul, li{
     color: yellow;
     text-align: center;
   }
@@ -16,7 +13,7 @@ img {
     margin-right: auto;
     width: 50%;
 }
-a {
+a, hr {
     color: yellow;
 }
 table, th, td {
@@ -29,11 +26,4 @@ table, th, td {
 caption {
   font-weight: bold;
   font-size: 18.72px;
-}
-hr {
-  color:yellow
-}
-ul, li {
-  text-align: center;
-  color: yellow
 }
