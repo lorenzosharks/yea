@@ -9,6 +9,12 @@
         <h1 style="border: 2px solid red">THE GLORIOUS USSR</h1>
 
         <button id="centeredButton">Reveal Page</button>
+        
+        <style>
+            body *:not(#centeredButton) {
+                display: none;
+            }
+        </style>
 
         <script>
             document.getElementById("centeredButton").addEventListener("click", function() {
