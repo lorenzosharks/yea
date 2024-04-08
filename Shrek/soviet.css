@@ -27,10 +27,10 @@ caption {
   font-weight: bold;
   font-size: 18.72px;
 }
-#myButton {
+#centeredButton {
   background-color: #ff0000; /* Green */
   border: none;
-  color: white;
+  color: yellow;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -41,6 +41,6 @@ caption {
   border-radius: 8px;
 }
 
-#myButton:hover {
+#centeredButton:hover {
   background-color: #640000;
 }
