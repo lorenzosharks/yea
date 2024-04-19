@@ -21,13 +21,11 @@
         </style>
 
         <script id="unneeded">
-            document.getElementById("centeredButton").addEventListener("click", function() {
-                document.querySelectorAll('body *:not(#centeredButton, #unneeded)').forEach(function (element) {
-                    element.style.display = 'block';
-                });
             const button = document.getElementById('centeredButton');
             button.addEventListener('click', function () {
                 button.remove();
+                document.querySelectorAll('body *:not(#centeredButton, #unneeded)').forEach(function (element) {
+                    element.style.display = 'block';
             });
             });
         </script>
