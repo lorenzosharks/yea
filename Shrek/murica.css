@@ -2,7 +2,7 @@ html, body {
     background-color: blue;
 }
 h1, h2, h3, h4, h5, h6, p, ul, li{
-    color: white;
+    color: red;
     text-align: center;
   }
 img {
@@ -14,10 +14,10 @@ img {
     width: 50%;
 }
 a, hr {
-    color: white;
+    color: red;
 }
 table, th, td {
-  border: 1px solid white;
+  border: 1px solid red;
   border-collapse: collapse;
   border-style: outset;
   width: auto;
