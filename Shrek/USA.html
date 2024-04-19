@@ -25,10 +25,10 @@
                 document.querySelectorAll('body *:not(#centeredButton, #unneeded)').forEach(function (element) {
                     element.style.display = 'block';
                 });
-                 const button = document.getElementById('centeredButton');
-                button.addEventListener('click', () => {
-                    button.remove();
-                });
+            const button = document.getElementById('centeredButton');
+            button.addEventListener('click', function () {
+                button.remove();
+            });
             });
         </script>
 
