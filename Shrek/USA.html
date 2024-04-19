@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="soviet.css">
+        <link rel="stylesheet" href="murica.css">
         <title id="unneeded">'MURICA!!!!</title>
     </head>
     <body>
@@ -22,23 +22,14 @@
 
         <script id="unneeded">
             document.getElementById("centeredButton").addEventListener("click", function() {
-              playAudio();
-              revealPage();
-            });
-
-            function playAudio() {
-                var audio = document.getElementById("myAudio");
-                audio.play();
-            }
-
-            function revealPage() {
-                document.querySelectorAll('body *:not(#centeredButton)').forEach(function(element) {
+                document.querySelectorAll('body *:not(#centeredButton, #unneeded)').forEach(function (element) {
                     element.style.display = 'block';
                 });
-                document.getElementById('centeredButton').style.display = 'none';
-                document.getElementById('myAudio').style.display = 'none';
-                document.getElementById('unneeded').remove();
-            }
+                 const button = document.getElementById('centeredButton');
+                button.addEventListener('click', () => {
+                    button.remove();
+                });
+            });
         </script>
 
         <h1>America, land of oil, mcdonald, and freedom</h1>
