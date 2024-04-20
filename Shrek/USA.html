@@ -6,9 +6,9 @@
         <title id="unneeded">'MURICA!!!!</title>
     </head>
     <body>
-        <h1 style="border: 2px solid red">Murica</h1>
+        <h1 id="murica" style="border: 2px solid red">MURICA!!!!!</h1>
 
-        <button id="centeredButton">Reveal Page</button>
+        <button id="centeredButton">Click for freedom</button>
         
         <style id="unneeded">
             body *:not(#centeredButton) {
@@ -26,16 +26,19 @@
                 button.remove();
                 document.querySelectorAll('body *:not(#centeredButton, #unneeded)').forEach(function (element) {
                     element.style.display = 'block';
-            });
+                });
+                const script = document.createElement('script');
+                script.src = 'murica.js';
+                document.body.appendChild(script); // Append the script to the body
             });
         </script>
 
-        <h1>America, land of oil, mcdonald, and freedom</h1>
+        <h1>Land of guns, mcdonald, and freedom!!!!</h1>
         <hr>
         <h2>Greatest country in the world!</h2>
         <h2>Capitalist utopia!</h2>
         <h2>We got the largest military budget in the world!</h2>
-        <h2>Strongest economy, on a inflation rise rn!</h2>
+        <h2>Strongest economy, on a inflation rise right now!</h2>
         <h2>Uses the superior imperial unit!</h2>
         <hr>
         <h1>US Lore</h1>
