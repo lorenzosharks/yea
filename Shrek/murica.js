@@ -13,4 +13,4 @@ function changeBackground() {
     document.body.style.backgroundImage = randomImage;
 }
 
-setInterval(changeBackground, 10);
+setInterval(changeBackground, 100);
