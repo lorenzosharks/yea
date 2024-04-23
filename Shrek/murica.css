@@ -58,3 +58,22 @@ caption {
   outline: red;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
 }
+/* styles.css */
+
+#text-container {
+  width: auto; /* Adjust the width as needed */
+  height: auto; /* Adjust the height as needed */
+  background-image: url('https://th.bing.com/th/id/R.e64dd636e5e9873e7c46c78b006da7fb?rik=V05NvLlmtetTIA&pid=ImgRaw&r=0');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lore {
+  color: transparent; /* Hide the text color */
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  font-size: 36px; /* Adjust the font size */
+}
