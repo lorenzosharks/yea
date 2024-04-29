@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="soviet.css">
+        <title id="unneeded">Glory to the USSR</title>
+    </head>
+    <body>
+        <h1 style="border: 2px solid red">THE GLORIOUS USSR</h1>
+
+        <button id="centeredButton">Reveal Page</button>
+        
+        <style id="unneeded">
+            body *:not(#centeredButton) {
+                display: none;
+            }
+            #centeredButton {
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+
+        <script id="unneeded">
+            document.getElementById("centeredButton").addEventListener("click", function() {
+              playAudio();
+              revealPage();
+            });
+
+            function playAudio() {
+                var audio = document.getElementById("myAudio");
+                audio.play();
+            }
+
+            function revealPage() {
+                document.querySelectorAll('body *:not(#centeredButton)').forEach(function(element) {
+                    element.style.display = 'block';
+                });
+                document.getElementById('centeredButton').style.display = 'none';
+                document.getElementById('myAudio').style.display = 'none';
+                document.getElementById('unneeded').remove();
+            }
+        </script>
+        
+        <audio id="myAudio" controls loop>
+            <source src="yea.mp3" type="audio/mpeg">
+        </audio>
+
+        <hr>
+        <img src="https://th.bing.com/th/id/R.8000154a3f4e24e73f1a5698307c9593?rik=ueauUoKL9JXlVA&pid=ImgRaw&r=0" alt="Stalin">
+        <h1>GLORY TO OUR DEAR COMRADE STALIN</h1>
+        <hr>
+        <h1>THE PERFECT COMMUNIST UTOPIA</h1>
+        <h2>Strongest economy!</h2>
+        <h2>Most powerful military</h2>
+        <h2>Supportive of other <a href="communist_countries.html">communist-to-be countries</a>!</h2>
+        <h2>Fighting the Dirty Capitalist West!</h2>
+        <hr>
+        <p>The USSR is a Eurasian superstate that began from 1922</p>
+        <p>It has survived the Nazi attack and held Leninsgrad for 4 brutal years</p>
+        <p>The will of the Soviet people has stood in the darkest of times, resisting the dark grips of capitalism and nazism</p>
+        <p>We have the strongest intelligence agency in the world, the Комитет государственной безопасности.</p>
+        <p>Furthermore, the USSR was the first to space and the first to build an ICBM.</p>
+        <p>We have won all of our wars such as Vietnam and the Korean War.</p>
+        <p>During the Great Depression, our economy stood up unlike the weak American capitalist economy.</p>
+    </body>
+</html>
