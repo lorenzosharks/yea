@@ -58,3 +58,27 @@ img {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+.title {
+  font-size: 50px;
+  text-align: center;
+
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 20vw 20vw;
+
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* WebKit browsers */
+
+  animation: slide 1s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position-x: 0%;
+  }
+
+  to {
+    background-position-x: 20vw;
+  }
+}
