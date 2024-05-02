@@ -1,0 +1,84 @@
+html {
+    background-color: black;
+}
+body {
+    color:aliceblue;
+    text-align:left;
+  }
+h1, h2, h3, h4, h5, h6, p{
+    color: white;
+  }
+img {
+    width:500;
+    height:100;
+}
+a {
+    color: aliceblue;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-style: outset;
+  width: auto;
+  padding: 5px;
+}
+caption {
+  font-weight: bold;
+  font-size: 18.72px;
+}
+img {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 20vw 20vw;
+
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* WebKit browsers */
+
+  animation: slide 1s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position-x: 0%;
+  }
+
+  to {
+    background-position-x: 20vw;
+  }
+}
