@@ -43,12 +43,10 @@ caption {
   height: calc(100% + 10px);
   width: calc(100% + 10px);
 }
-
 #centeredButton:hover {
   background-color: red;
   color: rgb(255, 217, 0);
 }
-
 #centeredButton:focus {
   outline: red;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
