@@ -19,35 +19,17 @@
                 margin: 0 auto;
             }
         </style>
-
+        
         <script id="unneeded">
-            document.getElementById("centeredButton").addEventListener("click", function() {
-              playAudio();
-              revealPage();
-            });
-
-            function playAudio() {
-                var audio = document.getElementById("myAudio");
-                audio.play();
-            }
-
-            function revealPage() {
-                document.querySelectorAll('body *:not(#centeredButton)').forEach(function(element) {
+            const button = document.getElementById('centeredButton');
+            button.addEventListener('click', function () {
+                button.remove();
+                document.querySelectorAll('body *:not(#centeredButton, #unneeded)').forEach(function (element) {
                     element.style.display = 'block';
                 });
-                document.getElementById('centeredButton').style.display = 'none';
-                document.getElementById('myAudio').style.display = 'none';
-                document.getElementById('unneeded').remove();
-            }
+            });
         </script>
-        
-        <audio id="myAudio" controls loop>
-            <source src="yea.mp3" type="audio/mpeg">
-        </audio>
 
-        <hr>
-        <img src="https://th.bing.com/th/id/R.8000154a3f4e24e73f1a5698307c9593?rik=ueauUoKL9JXlVA&pid=ImgRaw&r=0" alt="Stalin">
-        <h1>GLORY TO OUR DEAR COMRADE STALIN</h1>
         <hr>
         <h1>THE PERFECT COMMUNIST UTOPIA</h1>
         <h2>Strongest economy!</h2>
