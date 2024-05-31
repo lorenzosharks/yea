@@ -17,6 +17,7 @@ img {
 a {
     color: aliceblue;
     font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
 }
 table, th, td {
   border: 1px solid white;
@@ -89,4 +90,8 @@ img {
   to {
     background-position-x: 20vw;
   }
+}
+
+.nochange {
+  font-size: 10;
 }
