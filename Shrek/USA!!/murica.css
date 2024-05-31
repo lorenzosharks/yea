@@ -70,10 +70,6 @@ caption {
   align-items: center;
 }
 
-#lore {
-  color: transparent; /* Hide the text color */
-  -webkit-background-clip: text;
-  background-clip: text;
+.center {
   text-align: center;
-  font-size: 36px; /* Adjust the font size */
 }
