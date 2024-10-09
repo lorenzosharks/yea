@@ -23,14 +23,30 @@ a {
     color: aliceblue;
 }
 
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-  border-style: outset;
-  width: auto;
-  padding: 5px;
+.red-box {
+  width: fit-content; 
+  height: auto; 
+  background-color:rgb(139, 15, 15); 
+  border-radius: 50px; 
+  padding: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  text-align: center;
+}
+
+.border-less {
+  border: none;
 }
 
 caption {
@@ -38,8 +54,21 @@ caption {
   font-size: 18.72px;
 }
 
+.secondary {
+  font-size: 20px;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  min-width: 300px;
+  max-width: 800 px;
+  min-height: 300px;
+  max-height: 800px;
+}
+
+
 .title {
-  font-size: 50px;
   text-align: center;
 
   background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
