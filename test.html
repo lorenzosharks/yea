@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Button</title>
+    <style>
+        #draggableButton {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<button id="draggableButton">Drag me!</button>
+
+<script>
+    const button = document.getElementById('draggableButton');
+    let offsetX = 0;
+    let offsetY = 0;
+    let isDragging = false;
+
+    button.addEventListener('mousedown', (event) => {
+        isDragging = true;
+        
+        // Get the current mouse position relative to the button
+        offsetX = event.clientX - button.offsetLeft;
+        offsetY = event.clientY - button.offsetTop;
+    });
+
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
+
+    document.addEventListener('mousemove', (event) => {
+        if (isDragging) {
+            // Move the button as per the mouse movement
+            button.style.left = `${event.clientX - offsetX}px`;
+            button.style.top = `${event.clientY - offsetY}px`;
+        }
+    });
+</script>
+
+</body>
+</html>
