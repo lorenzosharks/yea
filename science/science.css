@@ -19,6 +19,30 @@ img {
     margin-right: auto;
 }
 
+p.oneline {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+p.top {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+p.middle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p.bottom {
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+.secondary {
+  font-size: 20px;
+}
+
 a {
     color: aliceblue;
 }
@@ -55,9 +79,6 @@ caption {
   font-size: 18.72px;
 }
 
-.secondary {
-  font-size: 20px;
-}
 
 .image {
   width: auto;
